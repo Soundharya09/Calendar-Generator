@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Calendar Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <h1>📅 Simple Calendar Generator</h1>
+      <label class="switch">
+        <input type="checkbox" id="themeToggle">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="controls">
+      <select id="month"></select>
+      <select id="year"></select>
+      <button onclick="generateCalendar()">Generate</button>
+    </div>
+
+    <div class="calendar">
+      <div class="day-names">
+        <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span>
+        <span>Thu</span><span>Fri</span><span>Sat</span>
+      </div>
+      <div id="dates" class="dates"></div>
+    </div>
+
+    <div id="eventBox" class="event-box">
+      <h3>Events</h3>
+      <ul id="eventList"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
