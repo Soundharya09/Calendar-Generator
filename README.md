@@ -20,4 +20,4 @@ The project also applies **data structures and algorithms (DSA)** concepts to ef
 ## How to Run
 Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/calendar-generator.git
+   git clone https://github.com/Soundharya09/Calendar-Generator.git
